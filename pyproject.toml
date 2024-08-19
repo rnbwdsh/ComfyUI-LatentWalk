@@ -1,0 +1,14 @@
+[project]
+name = "ComfyUI-LatentWalk"
+decription = "Latent space walks for latents, conditionals and noise"
+version = "0.1.0"
+license = { file = "LICENSE" }
+authors = ["rnbwdsh", "NicholasMcCarthy"]
+
+[build-system]
+requires = ["torch", "numpy", "Pillow", "scipy"]
+
+[tool.comfy]
+PublisherId = "rnbwdsh"
+DisplayName = "Latent Walk"
+Icon = ""
