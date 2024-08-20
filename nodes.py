@@ -1,6 +1,6 @@
 import torch
 
-from helper import unpack_conditioning, NoiseWrapper, random_walk
+from .helper import unpack_conditioning, NoiseWrapper, random_walk
 from .blend_modes import BLEND_MODES
 from .travel_modes import reflect_values, TRAVEL_MODES
 
